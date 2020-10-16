@@ -1,0 +1,94 @@
+header, footer {
+    background-color: #212738;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+body, header, footer, main {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #EDF2EF;
+}
+
+main, article {
+    display: flex;
+    flex-wrap:  wrap;
+    align-content: center;
+}
+
+img {
+    border-radius: 10px;
+    margin: 40px;
+    border: 2px groove #212738;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p, h1, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+main {
+    margin: 0 auto;
+    width: 600px;
+}
+
+main section {
+    width: 600px;
+}
+
+footer {
+    height: 50px;
+}
+
+.photo {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-footer-text {
+    color: #EDF2EF;
+}
+
+/* CSS for styled links */
+a:hover {
+    color: #00FDDC;
+}
+
+a:link {
+    color: #495F41;
+}
+
+a:visited {
+    color: #0E273C;
+}
+
+a:active {
+    color: #212738;
+}
