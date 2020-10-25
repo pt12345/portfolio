@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Peter Tarara</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -13,43 +14,87 @@
     </header>
 
     <main>
-        <!--Self photograph-->
-        <div class="photo">
-            <img src="images/pete1.jpg" alt="Peter Tarara"  height="200">
-        </div>
 
         <article>
             <!--Who I Am section-->
-            <section>
-                <h2>Who I Am</h2>
-                <p>I am a cloud ops engineer who recently moved from California to Hudsonville, Michigan.</p>
-                <p>I have experience using the following languages:</p>
-                <ul>
-                    <li>C++</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                </ul>
-                <p>Thank you for visiting my site; feel free to connect with me on <a href = "https://www.linkedin.com/in/ptarara/" target="_blank">LinkedIn</a>!</p>
-                <hr>
+            <section class="wrapper">
+                <div class="group">
+                    <!--Self photograph-->
+                    <div class="photo  item self">
+                        <img src="images/pete1.jpg" alt="Peter Tarara"  height="200">
+                    </div>
+
+                    <div class="item">
+                        <h2>Who I Am</h2>
+                        <p>I am a cloud ops engineer who recently moved from California to Hudsonville, Michigan.</p>
+                        <p>I have experience using the following languages:</p>
+                        <ul>
+                            <li>C++</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                        </ul>
+                        <p>Thank you for visiting my site; feel free to connect with me on <a href = "https://www.linkedin.com/in/ptarara/" target="_blank">LinkedIn</a>!</p>
+                    </div>
+                </div>
             </section>
  
             <!--About Me section-->
-            <section>
-                <h2>About Me</h2>
-                <p>I became passionate about web development while completing my computer science degree at UC Davis.</p>
-                <p>I'm currently employed as a cloud ops engineer for a software company based out of California. I really enjoy supporting software that users rely on around the world!</p>
-                <p>In my free time, I enjoy playing video games and taking road trips.</p>
+            <section class="wrapper about">
+                <div class="group">
+                    <div class="item">
+                        <h2>About Me</h2>
+                        <p>I became passionate about web development while completing my computer science degree at UC Davis.</p>
+                        <p>I'm currently employed as a cloud ops engineer for a software company based out of California. I really enjoy supporting software that users rely on around the world!</p>
+                        <p>In my free time, I enjoy playing video games and taking road trips.</p>
+                    </div>
 
-                <hr>
+                    <div class="photo item">
+                        <img src="images/coffee.jpg" alt="Coffee and Laptop"  height="200">
+                    </div>
+                </div>
+            </section>
+
+            <!--Portfolio section-->
+            <section class="wrapper">
+                <h2>Featured Projects</h2>
+                <div class="group">
+                    <div class="photo item">
+                        <h3>Coming Soon!</h3>
+                        <img src="images/TBD.jpg" alt="Coffee and Laptop"  height="200">
+                        <p>Featured project coming soon!</p>
+                    </div>
+                    <div class="photo item">
+                        <h3>Coming Soon!</h3>
+                        <img src="images/TBD.jpg" alt="Coffee and Laptop"  height="200">
+                        <p>Featured project coming soon!</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="photo item">
+                        <h3>Coming Soon!</h3>
+                        <img src="images/TBD.jpg" alt="Coffee and Laptop"  height="200">
+                        <p>Featured project coming soon!</p>
+                    </div>
+                    <div class="photo item">
+                        <h3>Coming Soon!</h3>
+                        <img src="images/TBD.jpg" alt="Coffee and Laptop"  height="200">
+                        <p>Featured project coming soon!</p>                
+                    </div>
+                </div>
             </section>
 
             <!--Contact section-->
-            <section>
-                <h2>Contact</h2>
-                <ol>
-                    <li><a href="https://www.linkedin.com/in/ptarara/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/pt12345" target="_blank">GitHub</a></li>
-                </ol>
+            <section class="wrapper">
+                <div class="group">
+                    <div class="item">
+                        <h2>Contact</h2>
+                        <ul>
+                            <li>Email: ptarara123@gmail.com</li>
+                            <li><a href="https://www.linkedin.com/in/ptarara/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/pt12345" target="_blank">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </article>       
     </main>

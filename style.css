@@ -23,8 +23,15 @@ main, article {
 
 img {
     border-radius: 10px;
-    margin: 40px;
+    margin: 10px;
     border: 2px groove #212738;
+    width: 90%;
+    height: auto;
+}
+
+.self img {
+    position: relative;
+    top: 15%;
 }
 
 h2 {
@@ -50,9 +57,19 @@ h3 {
     margin-bottom: 0px;
 }
 
-main {
+.wrapper {
     margin: 0 auto;
-    width: 600px;
+    width: 900px;
+}
+
+.wrapper.about {
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper.about .group {
+    width: 900px;
+    margin: 0 auto;
 }
 
 main section {
@@ -64,7 +81,7 @@ footer {
 }
 
 .photo {
-    margin: 0 auto;
+    text-align: center;
 }
 
 a {
@@ -75,6 +92,36 @@ a {
 .header-footer-text {
     color: #EDF2EF;
 }
+
+.wrapper {
+    width: 100%;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.about {
+    background-color: #6A8EAE;
+}
+
+@media all and (min-width: 800px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    .group {
+        flex-direction: row;
+    }
+
+} 
 
 /* CSS for styled links */
 a:hover {
