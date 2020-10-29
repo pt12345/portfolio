@@ -1,7 +1,6 @@
 header, footer {
     background-color: #212738;
     text-align: center;
-    width: 100%;
     height: auto;
 }
 
@@ -25,7 +24,7 @@ img {
     border-radius: 10px;
     margin: 10px;
     border: 2px groove #212738;
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 
@@ -67,7 +66,8 @@ h3 {
 }
 
 .wrapper.about .group {
-    width: 900px;
+    /*width: 900px;*/
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -93,7 +93,7 @@ a {
 }
 
 .wrapper {
-    width: 100%;
+    width: 80%;
 }
 
 .group {
@@ -110,6 +110,10 @@ a {
     background-color: #6A8EAE;
 }
 
+header h1 {
+    margin-bottom: 0;
+}
+
 @media all and (min-width: 800px) {
     .wrapper {
         width: 80%;
@@ -120,10 +124,29 @@ a {
         flex-direction: row;
     }
 
-} 
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+}
+
+header nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
 
 /* CSS for styled links */
-a:hover {
+#contact li a:hover {
     color: #00FDDC;
 }
 
@@ -132,9 +155,57 @@ a:link {
 }
 
 a:visited {
-    color: #0E273C;
+    color: #212738;
 }
 
 a:active {
     color: #212738;
+}
+
+header nav ul li a:link {
+    color: #ffffff;
+}
+
+header nav ul li a:visited {
+    color: #ffffff;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-right: 10px;
+}
+
+#submit-button {
+    width: 150px;
+}
+
+#form-message {
+    height: 150px;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+#contact li {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+footer p {
+    color: #ffffff;
+    padding-top: 15px;
 }
